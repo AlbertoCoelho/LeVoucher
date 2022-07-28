@@ -1,0 +1,7 @@
+- 📉 **Regras de negócio**
+    - Esta aplicação é uma API para uma pequena loja de roupas. A API oferece duas rotas: uma para a criação de vouchers e outra para aplicação destes vouchers.
+    - Os vouchers devem ser criados com duas informações: um código alfanumérico (letras e números) e o valor em porcentagem de desconto. O valor precisa estar entre 1 e 100.
+    - O código do voucher precisa ser único.
+    - Os vouchers só podem ser usados uma vez.
+    - É exigido uma compra mínima de pelo menos 100 (valor unitário) para que o voucher possa ser aplicado.
+    - Ao usar o desconto de um voucher, deve ser enviado o código e o valor total da compra. A API responderá com o valor da compra, o desconto aplicado, o valor final da compra e se o ele realmente foi aplicado ou não.
